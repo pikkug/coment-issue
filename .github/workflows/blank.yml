@@ -14,8 +14,4 @@ jobs:
         uses: hramos/label-actions@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-        needs-repro:
-          comment: |
-              can you add reproduction steps to the issue?
-          labels:
-            - needs-response
+ 
